@@ -1,6 +1,6 @@
 /**
  * A data structure organized as a tree of values such that each parent is greater than its children.
- * Here the heap is implement in an array, using index arithmetic to keep track of the tree structure.
+ * Here the heap is implemented with an array, using index arithmetic to keep track of the tree structure.
  */
 public class IntHeapArray {
 
@@ -71,7 +71,7 @@ public class IntHeapArray {
     }
 
     /**
-     * Recursively bubble up an element in the heap until it it's in the right position.
+     * Recursively bubble up an element in the heap until it's in the right position.
      * @param index The index into values so start bubbling from.
      */
     private void bubbleUp(int index) {
